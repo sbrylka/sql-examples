@@ -5,7 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [To-do-list](## To-do-list)
+* [To-do-list](##To-do-list)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
