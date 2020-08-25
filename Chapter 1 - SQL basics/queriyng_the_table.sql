@@ -1,7 +1,10 @@
-select * from renewable_energy_2011;
+select * from Categories;
 
-select country from renewable_energy_2011;
+select CategoryName, Description from Categories;
 
-select * from renewable_energy_2011 ORDER BY hydroelectricity;
+select LastName, FirstName, HireDate from Employees
+order by HireDate;
 
-select * from renewable_energy_2011 WHERE hydroelectricity < 1 ORDER BY hydroelectricity;
+select OrderID, ProductID, UnitPrice, Quantity, Discount from [Order Details]
+where Discount > 0
+order by Discount;

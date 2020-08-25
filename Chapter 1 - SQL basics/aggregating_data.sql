@@ -1,5 +1,6 @@
-select SUM(hydroelectricity) from renewable_energy_2011;
+select AVG(UnitPrice) as AvgUnitPrice from [Order Details];
 
-select MAX(hydroelectricity) from renewable_energy_2011;
+select MAX(Discount) as MaxDiscount from [Order Details];
 
-select eu_country, SUM(hydroelectricity) from renewable_energy_2011 GROUP BY eu_country;
+select OrderID, AVG(UnitPrice) as AvgUnitPrice, SUM(QUANTITY) as  SumQuantity from [Order Details]
+group by OrderID;
