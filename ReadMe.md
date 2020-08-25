@@ -1,5 +1,5 @@
 # SQL
-> This project's main goal is to review my SQL programming skills. It's based on the knowledge obtained during my studies and on course [Khan Academy](https://www.khanacademy.org/).
+> This project's main goal is to review my SQL programming skills. It's based on the knowledge obtained during my studies and on course [Khan Academy](https://www.khanacademy.org/) using [Northwind database](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
 
 ## Table of contents
 * [General info](#general-info)
@@ -24,8 +24,7 @@ This project will show how to:
 TBA
 
 ## Technologies
-* Any application of SQL database or
-* [Online SQL reader](https://sqliteonline.com/)
+* Microsoft SQL Server Management
 
 ## Code Examples
 `TBA`
