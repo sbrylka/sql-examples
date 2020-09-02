@@ -1,5 +1,7 @@
-/*WHERE + OR*/
-SELECT * FROM Consumption WHERE region = "Africa" OR region = "Asia Pacific" OR region = "Middle East";
+select * from Territories;
 
-/* IN */
-SELECT * FROM Consumption WHERE region IN ("Africa", "Asia Pacific", "Middle East");
+select * from  Territories
+where RegionID = '1' or RegionID = '2';
+
+select * from Territories
+where RegionID in ('1','2');
